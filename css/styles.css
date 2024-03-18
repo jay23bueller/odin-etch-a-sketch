@@ -3,5 +3,19 @@
     height: 960px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    align-content: flex-start;
+    gap: 1px;
+}
+
+.black {
+    background-color: black;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.white {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
